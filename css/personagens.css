@@ -43,40 +43,6 @@ header {
     gap: 30px;
     font-weight: bold;
 }
-
-#apresentacao {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    padding: 30px;
-    background-color: #dbeafe;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    border-radius: 15px;
-}
-.texto {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    flex: 1;
-}
-
-.texto h2 {
-    font-size: 55px;
-    margin-bottom: 20px;
-}
-.texto p {
-    font-size: 17px;
-}
-
-#apresentacao img {
-    width: 595px;
-    height: 350px;
-    border-radius: 20px;
-    object-fit: cover;
-}
-
 .personagens {
     padding-top: 10px;
 }

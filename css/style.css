@@ -77,3 +77,18 @@ header {
     object-fit: cover;
 }
 
+footer {
+    text-align: center;
+    background-color: #e63946;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#atividade {
+    margin-top: 20px;
+}
+
