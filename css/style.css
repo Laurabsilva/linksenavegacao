@@ -45,11 +45,12 @@ header {
 }
 
 #apresentacao {
+    padding-left: 25px;
+    padding-right: 25px;
     display: flex;
-    flex-direction: row;
     gap: 30px;
     padding: 30px;
-    background-color: #dbeafe;
+    background-color: #4e6f99;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
