@@ -12,28 +12,61 @@
                 <h1>Toy Story 5</h1>
             </section>
             <section class="menu">
-                <a href="index.html"><span>Página inicial</span></a>
-                <a href="pages/personagens.html"><span>Personagens</span></a>
-                <a href="pages/curiosidades.html"><span>Curiosidades</span></a>
+                <span class="inicial"><a href="index.html">Página Inicial</a></span>
+                <span class="personagens"><a href="pages/personagens.html">Personagens</a></span>
+                <span class="curiosidades"><a href="pages/curiosidades.html">Curiosidades</a></span>
             </section>
         </header>
 
         <main>
             <section id="apresentacao">
-                <section class="texto">
+                <article class="texto">
                     <span>Brinquedos e Tecnologia</span>
                     <h2>Conheça a turma de Bonnie!</h2>
                     <p>O quinto filme da franquia 'Toy Story' coloca os brinquedos diante de um novo e atual desafio: <strong>as telas</strong>. Com a Bonnie de olho no tablet novo o tempo todo, Woody, Buzz e Jessie precisam se virar pra continuar sendo os brinquedos favoritos dela.</p>
-                    <img src="img/toystory5.png" alt="Imagem De Jessie, Buzz Ligthyear e Woody"/>
-                </section>
+                    <a class="gotodestaques" href=#destaques>Ir para destaques</a></span>
+                </article>
+                <img src="assets/img/toystory5.png" alt="Imagem De Jessie, Buzz Ligthyear e Woody"/>
             </section>
-            <section class="navegacao">
-                    <article class="botao">
-                        <a href="pages/personagens.html">Conhecer personagens</a>
-                    </article>
-                    <article class="botao">
-                        <a href="pages/curiosidades.html">Ir para curiosidades</a>
+            <section id="destaques">
+                <article>
+                    <span>Vale a pena assistir?</span>
+                    <h2>Mais fortes quando estão juntos</h2>
+                </article>
+            </section>
+                <section id="cards">
+                    <article class="card">
+                        <span class="figurinha">🧸</span>
+                        <h3>Amizade</h3>
+                        <p>Woody, Jessie, Buzz e a turma provam que ninguém fica para trás.</p>
                     </article>
 
+                    <article class="card">
+                        <span class="figurinha">🚀</span>
+                        <h3>Aventura</h3>
+                        <p>Novos lugares, novos brinquedos e desafios que exigem trabalho em equipe.</p>
+                    </article>                  
+
+                    <article class="card">
+                        <span class="figurinha">📱</span>
+                        <h3>Era digital</h3>
+                        <p>Os brinquedos competem com as telas pela atenção de uma criança.</p>
+                    </article>                  
+                </section>   
+
+        <section id="gotopersonagens">
+            <p><span>Acervo de Personagens</span></p>
+            <h3>Pronto para conhecer cada personagem?</h3>
+            <a href="pages/personagens.html">Ver todos os personagens</a>
+        </section>        
         </main>
-    </body>    
+
+    <footer>
+            <p>Minissite desenvolvido para prática de HTML e CSS.</p>
+        <article class="link">
+            <span class="links1"><a href="https://www.pixar.com/toy-story-5" target="_blank" rel="noreferrer">Pixar Animation Studios</a></span>
+            <span class="links2"><a href="assets/files/teste.txt" download>Baixar Guia Pixar</a></span>
+        </article>
+    </footer>
+</body>    
+</html>
